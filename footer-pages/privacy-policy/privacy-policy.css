@@ -1,0 +1,66 @@
+@import "../../css/global.css";
+.main {
+}
+.hero {
+  padding-top: 96px;
+  margin-bottom: 72px;
+  background-image: url(../../imges/Shape.png),
+    url(../../imges/hero-right-tip.png);
+  background-repeat: no-repeat;
+  background-position: right 50px top 50px, left 50px top 50px;
+}
+.hero-container {
+}
+.container {
+}
+.hero-title {
+  font-weight: 600px;
+  font-size: 48px;
+  line-height: 58px;
+  margin-bottom: 8px;
+}
+
+.hero-description {
+  opacity: 60%;
+}
+.features {
+  background-image: url(../../imges/bg-img-right-bottom.png);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-color: #ecf8f9;
+}
+.features-container {
+  width: 100%;
+  font-weight: 830px;
+  padding-left: 221px;
+  padding-right: 118px;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 96px;
+  margin-bottom: 96px;
+}
+.features-title {
+  width: 100%;
+  max-width: 841px;
+  padding-top: 96px;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+.features-title-2 {
+  margin-bottom: 16px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+}
+.features-description {
+  max-width: 829px;
+  margin-bottom: 24px;
+}
+.features-description-2 {
+  width: 100%;
+  max-width: 841px;
+}
